@@ -10,5 +10,7 @@ namespace DataAnnotationsExample.Entities
         public string Name { get; set; }
 
         public DateTime Published { get; set; }
+
+        public Author Author { get; set; }
     }
 }

@@ -13,6 +13,5 @@ namespace DataAnnotationsExample.Entities
 
         public string LastName { get; set; }
 
-        public Book Book { get; set; }
     }
 }
