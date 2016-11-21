@@ -9,7 +9,7 @@ namespace MigrationExample1.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(MigrationExample1.Model.InvoiceContext context)
