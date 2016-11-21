@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\InvoiceContext.cs" />
     <Compile Include="Model\ModelEntities.cs" />
     <Compile Include="Program.cs" />
