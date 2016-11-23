@@ -28,6 +28,8 @@ namespace MigrationExample1.Model
         public string Text { get; set; }
 
         public decimal Price { get; set; }
+
+        public decimal Tax { get; set; }
     }
 
     public class Customer
