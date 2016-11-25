@@ -13,7 +13,7 @@ namespace MigrationExample1.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201611212150587_AddTaxToInvoiceItem"; }
+            get { return "201611251949517_AddTaxToInvoiceItem"; }
         }
         
         string IMigrationMetadata.Source

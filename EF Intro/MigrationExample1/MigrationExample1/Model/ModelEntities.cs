@@ -29,6 +29,7 @@ namespace MigrationExample1.Model
 
         public decimal Price { get; set; }
 
+        [Required]
         public decimal Tax { get; set; }
     }
 

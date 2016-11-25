@@ -56,9 +56,9 @@
     <Compile Include="Migrations\201611212135058_Initial.Designer.cs">
       <DependentUpon>201611212135058_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201611212150587_AddTaxToInvoiceItem.cs" />
-    <Compile Include="Migrations\201611212150587_AddTaxToInvoiceItem.Designer.cs">
-      <DependentUpon>201611212150587_AddTaxToInvoiceItem.cs</DependentUpon>
+    <Compile Include="Migrations\201611251949517_AddTaxToInvoiceItem.cs" />
+    <Compile Include="Migrations\201611251949517_AddTaxToInvoiceItem.Designer.cs">
+      <DependentUpon>201611251949517_AddTaxToInvoiceItem.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\InvoiceContext.cs" />
@@ -75,8 +75,8 @@
     <EmbeddedResource Include="Migrations\201611212135058_Initial.resx">
       <DependentUpon>201611212135058_Initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201611212150587_AddTaxToInvoiceItem.resx">
-      <DependentUpon>201611212150587_AddTaxToInvoiceItem.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201611251949517_AddTaxToInvoiceItem.resx">
+      <DependentUpon>201611251949517_AddTaxToInvoiceItem.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
